@@ -1,0 +1,3 @@
+blanco: #d3d6db
+rojo: #be3144
+gris: #394045
