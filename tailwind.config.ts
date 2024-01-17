@@ -1,4 +1,4 @@
-import type { Config } from "tailwindcss"
+import type { Config } from "tailwindcss" 
 
 const config = {
   darkMode: ["class"],
@@ -10,16 +10,16 @@ const config = {
 	],
   prefix: "",
   theme: {
+    screens: {
+      'mbl':'414px',
+      'tbt':'607px',
+      'ltb':'1024px',
+      'hd':'1343px',
+      'fhd':'1897px',
+    },
     container: {
       center: true,
-      padding: "2rem",
-      screens: {
-        'mbl':'414px',
-        'tbt':'607px',
-        'ltb':'1024px',
-        'hd':'1366px',
-        'uhd':'1920px',
-      },
+      padding: "2rem"
     },
     extend: {
       colors: {

@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 
 //Components
 import Navbar from '@/components/ui/Navbar'
+import { Footer } from '@/components/ui/Footer'
 
 //Fonts
 import { comic_neue } from '@/components/ui/fonts'
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body className={`${comic_neue.className}`}>
         <Navbar></Navbar>
         {children}
+        <Footer></Footer>
       </body>
     </html>
   )
