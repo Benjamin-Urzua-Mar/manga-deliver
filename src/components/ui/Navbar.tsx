@@ -30,7 +30,6 @@ import {
 
 //Icons imports
 import { RxHamburgerMenu } from "react-icons/rx";
-import { IoSearchSharp } from "react-icons/io5";
 import { FaSearch } from "react-icons/fa";
 import { IoMdArrowDropdownCircle } from "react-icons/io";
 
@@ -48,7 +47,7 @@ export default function Navbar() {
         </span>
         <span className="hidden ltb:flex items-center gap-3 ml-8 text-[#d3d6db]">
           <Link className="hover:text-[#be3144]" href="#">Inicio</Link>
-          <Link className="hover:text-[#be3144]" href="#">Explorar</Link>
+          <Link className="hover:text-[#be3144]" href="/explorar">Explorar</Link>
           <Link className="hover:text-[#be3144]" href="#">Mi biblioteca</Link>
         </span>
       </div>
