@@ -42,7 +42,7 @@ export default function Home() {
                     <CardContent className="bg-[url(/blue-lock-z98soa.png)] tbt:h-[400px] h-[300px] bg-contain bg-no-repeat bg-top">
                     </CardContent>
                     <CardFooter className="flex flex-col text-center tbt:-mt-44 ltb:-mt-40 hd:-mt-28 fhd:mt-1">
-                      <span className="text-[#be3144] ltb:text-lg hd:text-xl">Blue Lock</span>
+                      <span className="text-[#be3144] ltb:text-lg tbt:mt-28 hd:text-xl hd:mt-16">Blue Lock</span>
                       <span className="fhd:text-lg">Capítulo 1</span>
                     </CardFooter>
                   </Card>
